@@ -8,16 +8,37 @@
   </head>
   <body>
     <div class="container">
-      <div class="light-container">
+      <div>
         <h1>Dark/Light Mode</h1>
-        <button onclick="darkMode()" id="first-button">Dark Mode</button>
+        <button
+          onclick="darkMode()"
+          id="first-button"
+          class="first-dark-mode-button"
+        >
+          Dark Mode
+        </button>
         <p>This is some random text to test this out</p>
       </div>
     </div>
     <div class="dark-container container">
       <div>
         <h1>Toggle light and dark mode</h1>
-        <button onclick="darkMode()" id="second-button">Dark Mode</button>
+        <button
+          onclick="darkMode()"
+          id="second-button"
+          class="second-dark-mode-button"
+        >
+          Dark Mode
+        </button>
+        <p>This is some random text to test this out</p>
+      </div>
+    </div>
+    <div class="container colourful-container">
+      <div>
+        <h1>Colourful Mode</h1>
+        <button onclick="colourButton()" id="colour-button">
+          Colourful Mode
+        </button>
         <p>This is some random text to test this out</p>
       </div>
     </div>
