@@ -38,6 +38,26 @@ button {
   border: 1px solid white;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .first-dark-mode-button {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode .dark-container {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode .second-dark-mode-button {
+  background-color: black;
+  color: white;
+}
+
 .colourful-container {
   background-color: blueviolet;
 }
@@ -57,22 +77,19 @@ button {
   color: orange;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+.colourful-mode .colourful-container {
+  background-color: yellow;
 }
 
-.dark-mode .first-dark-mode-button {
-  background-color: white;
-  color: black;
+.colourful-mode .colourful-container h1 {
+  color: blueviolet;
 }
 
-.dark-mode .dark-container {
-  background-color: white;
-  color: black;
+.colourful-mode .colourful-container button {
+  background-color: red;
+  color: blue;
 }
 
-.dark-mode .second-dark-mode-button {
-  background-color: black;
-  color: white;
+.colourful-mode .colourful-container p {
+  color: red;
 }
