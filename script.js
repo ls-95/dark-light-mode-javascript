@@ -16,4 +16,10 @@ function darkMode() {
 function colourButton() {
   const element = document.body;
   element.classList.toggle("colourful-mode");
+  const colourButton = document.getElementById("colour-button");
+  if (element.classList.contains("colourful-mode")) {
+    colourButton.innerHTML = "Back";
+  } else {
+    colourButton.innerHTML = "Colourful Mode";
+  }
 }
